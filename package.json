@@ -1,0 +1,23 @@
+{
+ "name": "axios-esm",
+ "version": "0.21.0",
+ "license": "MIT",
+ "dependencies": {
+  "axios": "0.21.0"
+ },
+ "scripts": {
+  "build": "parcel build axios.js"
+},
+
+ "devDependencies": {
+  "parcel": "^2.0.0-beta.1"
+ },
+ "browser": "dist/axios.js",
+ "targets": {
+  "browser": {
+    "context":"browser",
+    "includeNodeModules":true,
+    "outputFormat": "esmodule"
+  }
+}
+}
