@@ -6,7 +6,7 @@ download  [Release](https://github.com/risol/axios-esm/releases)
 # use in browser
 ```
 <script type="module">
-  import axios from './axios.js';
+  import axios from './axios-esm.js';
   console.log(axios);
 </script>
 ```

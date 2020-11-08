@@ -12,7 +12,7 @@
  "devDependencies": {
   "parcel": "^2.0.0-beta.1"
  },
- "browser": "dist/axios.js",
+ "browser": "dist/axios-esm.js",
  "targets": {
   "browser": {
     "context":"browser",
